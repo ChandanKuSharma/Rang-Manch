@@ -1,0 +1,42 @@
+.song-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.song-img-name-cont {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.song-img {
+    border-radius: 4px;
+    height: 60px;
+    width: 60px;
+}
+
+.song-name {
+    margin-left: 16px;
+    display: inline;
+
+}
+
+.song-artist {
+
+    flex: 1;
+}
+
+.song-album {
+    flex: 1;
+
+}
+
+.song-duration {
+    flex: 1;
+}

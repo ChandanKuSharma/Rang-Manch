@@ -1,0 +1,11 @@
+.song-card-container {
+    background-color: white;
+    width: 182px;
+    padding-right: 16px;
+}
+
+.song-background {
+    border-radius: 8px;
+    height: 150px;
+    width: 150px;
+}

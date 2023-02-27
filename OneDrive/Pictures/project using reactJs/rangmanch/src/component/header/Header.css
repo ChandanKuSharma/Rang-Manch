@@ -1,0 +1,60 @@
+.app-header-container{
+  height: 60px;
+  width: 100%;
+  background-color: goldenrod;
+  display: flex;
+  flex-direction: row;
+  justify-content:start;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+}
+.header-container-left{
+  padding-left: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+.header-container-left img{
+  width: 70px;
+  height: 40px;
+  border-radius: 20px;
+
+}
+.header-title{
+  color: black;
+  font-weight: bold;
+}
+
+.Searchbox{
+  margin:15%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 50px;
+
+}
+
+.Searchbox input {
+  width: 500px;
+  height: 30px;
+  border-radius: 20px;
+  padding-left: 50px;
+  color: #f1f1f1;
+  font-size: 14px;
+  font-weight: bold;
+}
+.Searchbox i{
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #848484;
+  width: 45px;
+  line-height: 45px;
+  font-size: 20px;
+}

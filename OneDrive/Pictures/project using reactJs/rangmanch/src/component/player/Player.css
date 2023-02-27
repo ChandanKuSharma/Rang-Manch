@@ -1,0 +1,69 @@
+.player-container {
+    height: 60px;
+    width: 100%;
+    background-color: darkgoldenrod;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.player-song-info {
+    margin-left: 16px;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.player-song-action {
+    justify-content: center;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+.player-duration-meta{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: gold solid 1px;
+}
+.player-duration-meta-text{
+    font-size: small;
+}
+
+.action-btn {
+    margin-left: 16px;
+    margin-right: 16px;
+    font-size: x-large;
+}
+
+.player-song-img {
+    height: 45px;
+    width:45px;
+    border-radius: 5px;
+}
+
+.player-song-meta-data {
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.player-song-meta-name{
+    font-size: small;
+}
+.player-song-meta-singer{
+    color: black;
+    font-weight: bold;
+    font-size: small;
+}

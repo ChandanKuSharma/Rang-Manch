@@ -1,0 +1,11 @@
+.singer-card-container {
+    background-color: white;
+    width: 182px;
+    padding-right: 16px;
+}
+
+.singer-background {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
