@@ -20,7 +20,7 @@ class Player extends Component {
         }));
     }
 
-    audio = new Audio('/dilip darbhangiya/tari-wali.mp3')
+    audio = new Audio('/kunj bihari/hamar-pahun.mp3')
 
     playMusic() {
         this.revertAction()
@@ -55,7 +55,7 @@ class Player extends Component {
                 </div>
                 <div className="player-song-action">
                     <div className="player-duration-meta">
-                        <span className="player-duration-meta-text">00:03 / 00:184</span>
+                        <input type="Range"/>
                         
                     </div>
 
